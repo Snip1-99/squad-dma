@@ -77,7 +77,7 @@ namespace squad_dma
         {
             get => Memory.Actors;
         }
-        
+
         private Vector3 AbsoluteLocation
         {
             get => Memory.AbsoluteLocation;
@@ -386,7 +386,7 @@ namespace squad_dma
         }
 
         private void TabControl_SelectedIndexChanged(object sender, EventArgs e)
-        {}
+        { }
         #endregion
 
         #region Radar Tab
@@ -523,7 +523,7 @@ namespace squad_dma
 
             var bounds = new SKRect(
                 Math.Max(Math.Min(localPlayerPos.X, bitmap.Width - zoomWidth / 2) - zoomWidth / 2, 0),
-                Math.Max(Math.Min(localPlayerPos.Y, bitmap.Height - zoomHeight / 2)  - zoomHeight / 2, 0),
+                Math.Max(Math.Min(localPlayerPos.Y, bitmap.Height - zoomHeight / 2) - zoomHeight / 2, 0),
                 Math.Min(Math.Max(localPlayerPos.X, zoomWidth / 2) + zoomWidth / 2, bitmap.Width),
                 Math.Min(Math.Max(localPlayerPos.Y, zoomHeight / 2) + zoomHeight / 2, bitmap.Height)
             ).AspectFill(_mapCanvas.CanvasSize);
@@ -654,15 +654,16 @@ namespace squad_dma
                 //     return;
                 // }
 
-                
+
                 lines = new string[1] { $"{(int)Math.Round(height / 100)},{(int)Math.Round(dist / 100)}" };
 
                 if (actor.ActorType == ActorType.Player)
-                    lines[0] += $" ({(int) actor.Health})";
+                    lines[0] += $" ({(int)actor.Health})";
                 if (actor.ErrorCount > 10)
                     lines[0] = "ERROR"; // In case POS stops updating, let us know!
 
-                if (actor.ActorType != ActorType.Projectile) {
+                if (actor.ActorType != ActorType.Projectile)
+                {
                     actorZoomedPos.DrawActorText(
                         canvas,
                         actor,
@@ -670,15 +671,20 @@ namespace squad_dma
                     );
                 }
 
-                if (actor.ActorType == ActorType.Player) {
+                if (actor.ActorType == ActorType.Player)
+                {
                     actorZoomedPos.DrawPlayerMarker(
                         canvas,
                         actor,
                         aimlineLength
                     );
-                } else if (actor.ActorType == ActorType.Projectile) {
+                }
+                else if (actor.ActorType == ActorType.Projectile)
+                {
                     actorZoomedPos.DrawProjectile(canvas, actor);
-                } else {
+                }
+                else
+                {
                     actorZoomedPos.DrawTechMarker(canvas, actor);
                 }
             }
@@ -1171,6 +1177,36 @@ namespace squad_dma
         #endregion
 
         private void toolTip_Popup(object sender, PopupEventArgs e)
+        {
+
+        }
+
+        private void lblRadarMapSetup_Click(object sender, EventArgs e)
+        {
+
+        }
+
+        private void lblSettingsGeneralRadar_Click(object sender, EventArgs e)
+        {
+
+        }
+
+        private void sldrUIScale_Click(object sender, EventArgs e)
+        {
+
+        }
+
+        private void sldrZoomSensitivity_Click(object sender, EventArgs e)
+        {
+
+        }
+
+        private void lblSettingsColorsOther_Click(object sender, EventArgs e)
+        {
+
+        }
+
+        private void lblSettingsColorOtherPrimary_Click(object sender, EventArgs e)
         {
 
         }

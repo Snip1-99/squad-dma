@@ -680,7 +680,7 @@ namespace vmmsharp
             ConfigErrorInfo.strUserText = "";
             if (hVMM.ToInt64() == 0)
             {
-                throw new Exception("VMM INIT FAILED.");
+                throw new Exception("DMA初始化失败，请检查DMA,by：Snip1.");
             }
             if (vaLcCreateErrorInfo == 0)
             {

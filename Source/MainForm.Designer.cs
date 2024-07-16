@@ -117,14 +117,14 @@
             btnResetTheme.Font = new Font("Segoe UI", 8F);
             btnResetTheme.HighEmphasis = true;
             btnResetTheme.Icon = null;
-            btnResetTheme.Location = new Point(81, 170);
-            btnResetTheme.Margin = new Padding(4, 6, 4, 6);
+            btnResetTheme.Location = new Point(81, 193);
+            btnResetTheme.Margin = new Padding(4, 7, 4, 7);
             btnResetTheme.MouseState = MaterialSkin.MouseState.HOVER;
             btnResetTheme.Name = "btnResetTheme";
             btnResetTheme.NoAccentTextColor = Color.Empty;
-            btnResetTheme.Size = new Size(105, 36);
+            btnResetTheme.Size = new Size(105, 41);
             btnResetTheme.TabIndex = 59;
-            btnResetTheme.Text = "Reset Theme";
+            btnResetTheme.Text = "重置主题";
             toolTip.SetToolTip(btnResetTheme, "Manually triggers radar restart");
             btnResetTheme.Type = MaterialSkin.Controls.MaterialButton.MaterialButtonType.Contained;
             btnResetTheme.UseAccentColor = true;
@@ -135,15 +135,15 @@
             // 
             swMapHelper.Depth = 0;
             swMapHelper.Font = new Font("Segoe UI", 9F);
-            swMapHelper.Location = new Point(15, 45);
+            swMapHelper.Location = new Point(15, 51);
             swMapHelper.Margin = new Padding(0);
             swMapHelper.MouseLocation = new Point(-1, -1);
             swMapHelper.MouseState = MaterialSkin.MouseState.HOVER;
             swMapHelper.Name = "swMapHelper";
             swMapHelper.Ripple = true;
-            swMapHelper.Size = new Size(146, 28);
+            swMapHelper.Size = new Size(146, 32);
             swMapHelper.TabIndex = 0;
-            swMapHelper.Text = "Map Helper";
+            swMapHelper.Text = "地图帮助";
             toolTip.SetToolTip(swMapHelper, "Shows the 'Map Setup' panel");
             swMapHelper.UseVisualStyleBackColor = true;
             swMapHelper.CheckedChanged += swMapHelper_CheckedChanged;
@@ -156,14 +156,14 @@
             btnToggleMap.Depth = 0;
             btnToggleMap.HighEmphasis = true;
             btnToggleMap.Icon = null;
-            btnToggleMap.Location = new Point(482, 77);
-            btnToggleMap.Margin = new Padding(4, 6, 4, 6);
+            btnToggleMap.Location = new Point(393, 36);
+            btnToggleMap.Margin = new Padding(4, 7, 4, 7);
             btnToggleMap.MouseState = MaterialSkin.MouseState.HOVER;
             btnToggleMap.Name = "btnToggleMap";
             btnToggleMap.NoAccentTextColor = Color.Empty;
-            btnToggleMap.Size = new Size(143, 36);
+            btnToggleMap.Size = new Size(143, 41);
             btnToggleMap.TabIndex = 1;
-            btnToggleMap.Text = "Toggle Map (F5)";
+            btnToggleMap.Text = "刷新地图 (F5)";
             toolTip.SetToolTip(btnToggleMap, "Manually toggles active map");
             btnToggleMap.Type = MaterialSkin.Controls.MaterialButton.MaterialButtonType.Contained;
             btnToggleMap.UseAccentColor = true;
@@ -179,14 +179,14 @@
             btnRestartRadar.Font = new Font("Segoe UI", 8F);
             btnRestartRadar.HighEmphasis = true;
             btnRestartRadar.Icon = null;
-            btnRestartRadar.Location = new Point(331, 77);
-            btnRestartRadar.Margin = new Padding(4, 6, 4, 6);
+            btnRestartRadar.Location = new Point(393, 91);
+            btnRestartRadar.Margin = new Padding(4, 7, 4, 7);
             btnRestartRadar.MouseState = MaterialSkin.MouseState.HOVER;
             btnRestartRadar.Name = "btnRestartRadar";
             btnRestartRadar.NoAccentTextColor = Color.Empty;
-            btnRestartRadar.Size = new Size(143, 36);
+            btnRestartRadar.Size = new Size(143, 41);
             btnRestartRadar.TabIndex = 2;
-            btnRestartRadar.Text = "Restart Radar";
+            btnRestartRadar.Text = "重新启动雷达";
             toolTip.SetToolTip(btnRestartRadar, "Manually triggers radar restart");
             btnRestartRadar.Type = MaterialSkin.Controls.MaterialButton.MaterialButtonType.Contained;
             btnRestartRadar.UseAccentColor = true;
@@ -197,15 +197,15 @@
             // 
             swRadarStats.Depth = 0;
             swRadarStats.Font = new Font("Segoe UI", 9F);
-            swRadarStats.Location = new Point(15, 85);
+            swRadarStats.Location = new Point(15, 96);
             swRadarStats.Margin = new Padding(0);
             swRadarStats.MouseLocation = new Point(-1, -1);
             swRadarStats.MouseState = MaterialSkin.MouseState.HOVER;
             swRadarStats.Name = "swRadarStats";
             swRadarStats.Ripple = true;
-            swRadarStats.Size = new Size(144, 28);
+            swRadarStats.Size = new Size(144, 32);
             swRadarStats.TabIndex = 31;
-            swRadarStats.Text = "Radar Stats";
+            swRadarStats.Text = "雷达统计";
             toolTip.SetToolTip(swRadarStats, "Shows radar stats on radar tab");
             swRadarStats.UseVisualStyleBackColor = true;
             swRadarStats.CheckedChanged += swRadarStats_CheckedChanged;
@@ -214,13 +214,13 @@
             // 
             swRadarVsync.Depth = 0;
             swRadarVsync.Font = new Font("Segoe UI", 9F);
-            swRadarVsync.Location = new Point(172, 45);
+            swRadarVsync.Location = new Point(172, 51);
             swRadarVsync.Margin = new Padding(0);
             swRadarVsync.MouseLocation = new Point(-1, -1);
             swRadarVsync.MouseState = MaterialSkin.MouseState.HOVER;
             swRadarVsync.Name = "swRadarVsync";
             swRadarVsync.Ripple = true;
-            swRadarVsync.Size = new Size(118, 28);
+            swRadarVsync.Size = new Size(118, 32);
             swRadarVsync.TabIndex = 32;
             swRadarVsync.Text = "VSync";
             toolTip.SetToolTip(swRadarVsync, "Shows radar stats on radar tab");
@@ -231,15 +231,15 @@
             // 
             swRadarEnemyCount.Depth = 0;
             swRadarEnemyCount.Font = new Font("Segoe UI", 9F);
-            swRadarEnemyCount.Location = new Point(172, 85);
+            swRadarEnemyCount.Location = new Point(172, 96);
             swRadarEnemyCount.Margin = new Padding(0);
             swRadarEnemyCount.MouseLocation = new Point(-1, -1);
             swRadarEnemyCount.MouseState = MaterialSkin.MouseState.HOVER;
             swRadarEnemyCount.Name = "swRadarEnemyCount";
             swRadarEnemyCount.Ripple = true;
-            swRadarEnemyCount.Size = new Size(152, 28);
+            swRadarEnemyCount.Size = new Size(152, 32);
             swRadarEnemyCount.TabIndex = 33;
-            swRadarEnemyCount.Text = "Enemy Count";
+            swRadarEnemyCount.Text = "敌人统计";
             toolTip.SetToolTip(swRadarEnemyCount, "Shows radar stats on radar tab");
             swRadarEnemyCount.UseVisualStyleBackColor = true;
             swRadarEnemyCount.CheckedChanged += swRadarEnemyCount_CheckedChanged;
@@ -248,15 +248,15 @@
             // 
             swAimview.Depth = 0;
             swAimview.Font = new Font("Segoe UI", 9F);
-            swAimview.Location = new Point(17, 44);
+            swAimview.Location = new Point(17, 50);
             swAimview.Margin = new Padding(0);
             swAimview.MouseLocation = new Point(-1, -1);
             swAimview.MouseState = MaterialSkin.MouseState.HOVER;
             swAimview.Name = "swAimview";
             swAimview.Ripple = true;
-            swAimview.Size = new Size(159, 28);
+            swAimview.Size = new Size(159, 32);
             swAimview.TabIndex = 2;
-            swAimview.Text = "Aimview (F4)";
+            swAimview.Text = "目标视图 (F4)";
             toolTip.SetToolTip(swAimview, "Displays the 3D aimview");
             swAimview.UseVisualStyleBackColor = true;
             swAimview.CheckedChanged += swAimview_CheckedChanged;
@@ -265,15 +265,15 @@
             // 
             swNames.Depth = 0;
             swNames.Font = new Font("Segoe UI", 9F);
-            swNames.Location = new Point(172, 44);
+            swNames.Location = new Point(172, 50);
             swNames.Margin = new Padding(0);
             swNames.MouseLocation = new Point(-1, -1);
             swNames.MouseState = MaterialSkin.MouseState.HOVER;
             swNames.Name = "swNames";
             swNames.Ripple = true;
-            swNames.Size = new Size(140, 28);
+            swNames.Size = new Size(140, 32);
             swNames.TabIndex = 3;
-            swNames.Text = "Names (F6)";
+            swNames.Text = "ID (F6)";
             toolTip.SetToolTip(swNames, "Shows player names on the radar");
             swNames.UseVisualStyleBackColor = true;
             swNames.CheckedChanged += swNames_CheckedChanged;
@@ -282,14 +282,14 @@
             // 
             sldrAimlineLength.Depth = 0;
             sldrAimlineLength.ForeColor = Color.Black;
-            sldrAimlineLength.Location = new Point(17, 75);
+            sldrAimlineLength.Location = new Point(17, 85);
             sldrAimlineLength.MouseState = MaterialSkin.MouseState.HOVER;
             sldrAimlineLength.Name = "sldrAimlineLength";
             sldrAimlineLength.RangeMax = 1000;
             sldrAimlineLength.RangeMin = 10;
             sldrAimlineLength.Size = new Size(304, 40);
             sldrAimlineLength.TabIndex = 30;
-            sldrAimlineLength.Text = "Aimline Length";
+            sldrAimlineLength.Text = "瞄准线长度";
             toolTip.SetToolTip(sldrAimlineLength, "Length of the 'bar' or 'aim line' on the localplayer");
             sldrAimlineLength.UseAccentColor = true;
             sldrAimlineLength.Value = 500;
@@ -300,33 +300,34 @@
             // 
             sldrUIScale.Depth = 0;
             sldrUIScale.ForeColor = Color.Black;
-            sldrUIScale.Location = new Point(331, 75);
+            sldrUIScale.Location = new Point(331, 85);
             sldrUIScale.MouseState = MaterialSkin.MouseState.HOVER;
             sldrUIScale.Name = "sldrUIScale";
             sldrUIScale.RangeMax = 200;
             sldrUIScale.RangeMin = 10;
             sldrUIScale.Size = new Size(241, 40);
             sldrUIScale.TabIndex = 31;
-            sldrUIScale.Text = "UI Scale";
+            sldrUIScale.Text = "UI比例";
             toolTip.SetToolTip(sldrUIScale, "Scales the UI fonts etc, useful for larger screen resolutions");
             sldrUIScale.UseAccentColor = true;
             sldrUIScale.Value = 100;
             sldrUIScale.ValueMax = 200;
             sldrUIScale.ValueSuffix = "%";
             sldrUIScale.onValueChanged += sldrUIScale_onValueChanged;
+            sldrUIScale.Click += sldrUIScale_Click;
             // 
             // sldrFontSize
             // 
             sldrFontSize.Depth = 0;
             sldrFontSize.ForeColor = Color.Black;
-            sldrFontSize.Location = new Point(194, 121);
+            sldrFontSize.Location = new Point(194, 137);
             sldrFontSize.MouseState = MaterialSkin.MouseState.HOVER;
             sldrFontSize.Name = "sldrFontSize";
             sldrFontSize.RangeMax = 36;
             sldrFontSize.RangeMin = 1;
             sldrFontSize.Size = new Size(241, 40);
             sldrFontSize.TabIndex = 39;
-            sldrFontSize.Text = "Font Size";
+            sldrFontSize.Text = "字体大小";
             toolTip.SetToolTip(sldrFontSize, "The font size to use for the text on the radar");
             sldrFontSize.UseAccentColor = true;
             sldrFontSize.Value = 13;
@@ -349,8 +350,8 @@
             cboFont.Hint = "Font";
             cboFont.IntegralHeight = false;
             cboFont.ItemHeight = 29;
-            cboFont.Items.AddRange(new object[] { "Arial", "Calibri", "Candara", "Consolas", "Constantia", "Corbel", "Helvetica", "Lato", "Roboto", "Segoe UI", "Tahoma", "Trebuchet MS", "Verdana" });
-            cboFont.Location = new Point(17, 121);
+            cboFont.Items.AddRange(new object[] { "Microsoft YaHei ", "Arial" });
+            cboFont.Location = new Point(17, 137);
             cboFont.MaxDropDownItems = 10;
             cboFont.MouseState = MaterialSkin.MouseState.OUT;
             cboFont.Name = "cboFont";
@@ -372,7 +373,7 @@
             txtMapSetupX.HideSelection = true;
             txtMapSetupX.Hint = "X";
             txtMapSetupX.LeadingIcon = null;
-            txtMapSetupX.Location = new Point(17, 45);
+            txtMapSetupX.Location = new Point(1, 19);
             txtMapSetupX.MaxLength = 32767;
             txtMapSetupX.MouseState = MaterialSkin.MouseState.OUT;
             txtMapSetupX.Name = "txtMapSetupX";
@@ -404,7 +405,7 @@
             txtMapSetupY.HideSelection = true;
             txtMapSetupY.Hint = "Y";
             txtMapSetupY.LeadingIcon = null;
-            txtMapSetupY.Location = new Point(101, 45);
+            txtMapSetupY.Location = new Point(85, 19);
             txtMapSetupY.MaxLength = 32767;
             txtMapSetupY.MouseState = MaterialSkin.MouseState.OUT;
             txtMapSetupY.Name = "txtMapSetupY";
@@ -436,7 +437,7 @@
             txtMapSetupScale.HideSelection = true;
             txtMapSetupScale.Hint = "Scale";
             txtMapSetupScale.LeadingIcon = null;
-            txtMapSetupScale.Location = new Point(185, 45);
+            txtMapSetupScale.Location = new Point(169, 19);
             txtMapSetupScale.MaxLength = 32767;
             txtMapSetupScale.MouseState = MaterialSkin.MouseState.OUT;
             txtMapSetupScale.Name = "txtMapSetupScale";
@@ -466,14 +467,14 @@
             btnMapSetupApply.Font = new Font("Segoe UI", 8F);
             btnMapSetupApply.HighEmphasis = true;
             btnMapSetupApply.Icon = null;
-            btnMapSetupApply.Location = new Point(369, 45);
-            btnMapSetupApply.Margin = new Padding(4, 6, 4, 6);
+            btnMapSetupApply.Location = new Point(254, 14);
+            btnMapSetupApply.Margin = new Padding(4, 7, 4, 7);
             btnMapSetupApply.MouseState = MaterialSkin.MouseState.HOVER;
             btnMapSetupApply.Name = "btnMapSetupApply";
             btnMapSetupApply.NoAccentTextColor = Color.Empty;
-            btnMapSetupApply.Size = new Size(57, 36);
+            btnMapSetupApply.Size = new Size(57, 41);
             btnMapSetupApply.TabIndex = 35;
-            btnMapSetupApply.Text = "Apply";
+            btnMapSetupApply.Text = "应用";
             toolTip.SetToolTip(btnMapSetupApply, "Manually triggers radar restart");
             btnMapSetupApply.Type = MaterialSkin.Controls.MaterialButton.MaterialButtonType.Contained;
             btnMapSetupApply.UseAccentColor = true;
@@ -488,14 +489,14 @@
             btnToggleMapFree.Depth = 0;
             btnToggleMapFree.HighEmphasis = true;
             btnToggleMapFree.Icon = Properties.Resources.tick;
-            btnToggleMapFree.Location = new Point(6, 5);
-            btnToggleMapFree.Margin = new Padding(4, 6, 4, 6);
+            btnToggleMapFree.Location = new Point(6, 6);
+            btnToggleMapFree.Margin = new Padding(4, 7, 4, 7);
             btnToggleMapFree.MouseState = MaterialSkin.MouseState.HOVER;
             btnToggleMapFree.Name = "btnToggleMapFree";
             btnToggleMapFree.NoAccentTextColor = Color.Empty;
-            btnToggleMapFree.Size = new Size(107, 36);
+            btnToggleMapFree.Size = new Size(107, 41);
             btnToggleMapFree.TabIndex = 47;
-            btnToggleMapFree.Text = "Follow";
+            btnToggleMapFree.Text = "跟随";
             toolTip.SetToolTip(btnToggleMapFree, "Toggles radar following functionality");
             btnToggleMapFree.Type = MaterialSkin.Controls.MaterialButton.MaterialButtonType.Text;
             btnToggleMapFree.UseAccentColor = true;
@@ -522,9 +523,9 @@
             tabSettings.Location = new Point(4, 39);
             tabSettings.Margin = new Padding(0);
             tabSettings.Name = "tabSettings";
-            tabSettings.Size = new Size(2092, 1044);
+            tabSettings.Size = new Size(1645, 896);
             tabSettings.TabIndex = 1;
-            tabSettings.Text = "Settings";
+            tabSettings.Text = "设置";
             // 
             // tabSelector
             // 
@@ -537,7 +538,7 @@
             tabSelector.Margin = new Padding(0);
             tabSelector.MouseState = MaterialSkin.MouseState.HOVER;
             tabSelector.Name = "tabSelector";
-            tabSelector.Size = new Size(2092, 36);
+            tabSelector.Size = new Size(1645, 41);
             tabSelector.TabIndex = 29;
             tabSelector.TabIndicatorHeight = 1;
             tabSelector.Text = "tabSelectorSettings";
@@ -549,13 +550,13 @@
             tabControlSettings.Controls.Add(tabSettingsColors);
             tabControlSettings.Depth = 0;
             tabControlSettings.Font = new Font("Segoe UI", 9F);
-            tabControlSettings.Location = new Point(0, 36);
+            tabControlSettings.Location = new Point(0, 41);
             tabControlSettings.Margin = new Padding(0);
             tabControlSettings.MouseState = MaterialSkin.MouseState.HOVER;
             tabControlSettings.Multiline = true;
             tabControlSettings.Name = "tabControlSettings";
             tabControlSettings.SelectedIndex = 0;
-            tabControlSettings.Size = new Size(1289, 667);
+            tabControlSettings.Size = new Size(1289, 757);
             tabControlSettings.TabIndex = 28;
             // 
             // tabSettingsGeneral
@@ -567,7 +568,7 @@
             tabSettingsGeneral.Location = new Point(4, 24);
             tabSettingsGeneral.Margin = new Padding(0);
             tabSettingsGeneral.Name = "tabSettingsGeneral";
-            tabSettingsGeneral.Size = new Size(1281, 639);
+            tabSettingsGeneral.Size = new Size(1281, 729);
             tabSettingsGeneral.TabIndex = 0;
             tabSettingsGeneral.Text = "General";
             // 
@@ -584,30 +585,31 @@
             mcSettingsGeneralUI.Controls.Add(swAimview);
             mcSettingsGeneralUI.Depth = 0;
             mcSettingsGeneralUI.ForeColor = Color.FromArgb(222, 0, 0, 0);
-            mcSettingsGeneralUI.Location = new Point(15, 166);
-            mcSettingsGeneralUI.Margin = new Padding(14);
+            mcSettingsGeneralUI.Location = new Point(15, 188);
+            mcSettingsGeneralUI.Margin = new Padding(14, 16, 14, 16);
             mcSettingsGeneralUI.MouseState = MaterialSkin.MouseState.HOVER;
             mcSettingsGeneralUI.Name = "mcSettingsGeneralUI";
-            mcSettingsGeneralUI.Padding = new Padding(14);
-            mcSettingsGeneralUI.Size = new Size(633, 220);
+            mcSettingsGeneralUI.Padding = new Padding(14, 16, 14, 16);
+            mcSettingsGeneralUI.Size = new Size(633, 249);
             mcSettingsGeneralUI.TabIndex = 31;
             // 
             // sldrZoomSensitivity
             // 
             sldrZoomSensitivity.Depth = 0;
             sldrZoomSensitivity.ForeColor = Color.Black;
-            sldrZoomSensitivity.Location = new Point(17, 167);
+            sldrZoomSensitivity.Location = new Point(17, 189);
             sldrZoomSensitivity.MouseState = MaterialSkin.MouseState.HOVER;
             sldrZoomSensitivity.Name = "sldrZoomSensitivity";
             sldrZoomSensitivity.RangeMax = 30;
             sldrZoomSensitivity.RangeMin = 1;
             sldrZoomSensitivity.Size = new Size(304, 40);
             sldrZoomSensitivity.TabIndex = 41;
-            sldrZoomSensitivity.Text = "Zoom Sensitivity";
+            sldrZoomSensitivity.Text = "变焦灵敏度";
             sldrZoomSensitivity.UseAccentColor = true;
             sldrZoomSensitivity.Value = 15;
             sldrZoomSensitivity.ValueMax = 30;
             sldrZoomSensitivity.onValueChanged += sldrZoomSensitivity_onValueChanged;
+            sldrZoomSensitivity.Click += sldrZoomSensitivity_Click;
             // 
             // lblSettingsGeneralUI
             // 
@@ -616,12 +618,12 @@
             lblSettingsGeneralUI.Font = new Font("Roboto Medium", 20F, FontStyle.Bold, GraphicsUnit.Pixel);
             lblSettingsGeneralUI.FontType = MaterialSkin.MaterialSkinManager.fontType.H6;
             lblSettingsGeneralUI.HighEmphasis = true;
-            lblSettingsGeneralUI.Location = new Point(17, 12);
+            lblSettingsGeneralUI.Location = new Point(17, 14);
             lblSettingsGeneralUI.MouseState = MaterialSkin.MouseState.HOVER;
             lblSettingsGeneralUI.Name = "lblSettingsGeneralUI";
-            lblSettingsGeneralUI.Size = new Size(128, 24);
+            lblSettingsGeneralUI.Size = new Size(81, 24);
             lblSettingsGeneralUI.TabIndex = 33;
-            lblSettingsGeneralUI.Text = "User Interface";
+            lblSettingsGeneralUI.Text = "用户界面";
             lblSettingsGeneralUI.UseAccent = true;
             // 
             // mcSettingsGeneralRadar
@@ -636,12 +638,12 @@
             mcSettingsGeneralRadar.Controls.Add(swMapHelper);
             mcSettingsGeneralRadar.Depth = 0;
             mcSettingsGeneralRadar.ForeColor = Color.FromArgb(222, 0, 0, 0);
-            mcSettingsGeneralRadar.Location = new Point(15, 14);
-            mcSettingsGeneralRadar.Margin = new Padding(14);
+            mcSettingsGeneralRadar.Location = new Point(15, 16);
+            mcSettingsGeneralRadar.Margin = new Padding(14, 16, 14, 16);
             mcSettingsGeneralRadar.MouseState = MaterialSkin.MouseState.HOVER;
             mcSettingsGeneralRadar.Name = "mcSettingsGeneralRadar";
-            mcSettingsGeneralRadar.Padding = new Padding(14);
-            mcSettingsGeneralRadar.Size = new Size(633, 136);
+            mcSettingsGeneralRadar.Padding = new Padding(14, 16, 14, 16);
+            mcSettingsGeneralRadar.Size = new Size(633, 154);
             mcSettingsGeneralRadar.TabIndex = 30;
             // 
             // lblSettingsGeneralRadar
@@ -651,13 +653,14 @@
             lblSettingsGeneralRadar.Font = new Font("Roboto Medium", 20F, FontStyle.Bold, GraphicsUnit.Pixel);
             lblSettingsGeneralRadar.FontType = MaterialSkin.MaterialSkinManager.fontType.H6;
             lblSettingsGeneralRadar.HighEmphasis = true;
-            lblSettingsGeneralRadar.Location = new Point(17, 15);
+            lblSettingsGeneralRadar.Location = new Point(17, 17);
             lblSettingsGeneralRadar.MouseState = MaterialSkin.MouseState.HOVER;
             lblSettingsGeneralRadar.Name = "lblSettingsGeneralRadar";
-            lblSettingsGeneralRadar.Size = new Size(53, 24);
+            lblSettingsGeneralRadar.Size = new Size(81, 24);
             lblSettingsGeneralRadar.TabIndex = 30;
-            lblSettingsGeneralRadar.Text = "Radar";
+            lblSettingsGeneralRadar.Text = "雷达设置";
             lblSettingsGeneralRadar.UseAccent = true;
+            lblSettingsGeneralRadar.Click += lblSettingsGeneralRadar_Click;
             // 
             // tabSettingsColors
             // 
@@ -666,9 +669,9 @@
             tabSettingsColors.Location = new Point(4, 24);
             tabSettingsColors.Margin = new Padding(0);
             tabSettingsColors.Name = "tabSettingsColors";
-            tabSettingsColors.Size = new Size(1281, 639);
+            tabSettingsColors.Size = new Size(1281, 729);
             tabSettingsColors.TabIndex = 4;
-            tabSettingsColors.Text = "Colors";
+            tabSettingsColors.Text = "颜色";
             // 
             // mcSettingsColorsOther
             // 
@@ -685,21 +688,21 @@
             mcSettingsColorsOther.Controls.Add(lblSettingsColorsOther);
             mcSettingsColorsOther.Depth = 0;
             mcSettingsColorsOther.ForeColor = Color.FromArgb(222, 0, 0, 0);
-            mcSettingsColorsOther.Location = new Point(14, 14);
-            mcSettingsColorsOther.Margin = new Padding(14);
+            mcSettingsColorsOther.Location = new Point(14, 16);
+            mcSettingsColorsOther.Margin = new Padding(14, 16, 14, 16);
             mcSettingsColorsOther.MouseState = MaterialSkin.MouseState.HOVER;
             mcSettingsColorsOther.Name = "mcSettingsColorsOther";
-            mcSettingsColorsOther.Padding = new Padding(14);
-            mcSettingsColorsOther.Size = new Size(186, 220);
+            mcSettingsColorsOther.Padding = new Padding(14, 16, 14, 16);
+            mcSettingsColorsOther.Size = new Size(186, 249);
             mcSettingsColorsOther.TabIndex = 43;
             // 
             // picOtherAccent
             // 
             picOtherAccent.BackColor = Color.Transparent;
             picOtherAccent.BorderStyle = BorderStyle.FixedSingle;
-            picOtherAccent.Location = new Point(99, 138);
+            picOtherAccent.Location = new Point(99, 156);
             picOtherAccent.Name = "picOtherAccent";
-            picOtherAccent.Size = new Size(70, 23);
+            picOtherAccent.Size = new Size(70, 26);
             picOtherAccent.TabIndex = 58;
             picOtherAccent.TabStop = false;
             picOtherAccent.Click += picOtherAccent_Click;
@@ -710,7 +713,7 @@
             lblSettingsColorOtherAccent.Depth = 0;
             lblSettingsColorOtherAccent.Font = new Font("Roboto", 12F, FontStyle.Regular, GraphicsUnit.Pixel);
             lblSettingsColorOtherAccent.FontType = MaterialSkin.MaterialSkinManager.fontType.Body2;
-            lblSettingsColorOtherAccent.Location = new Point(46, 138);
+            lblSettingsColorOtherAccent.Location = new Point(46, 156);
             lblSettingsColorOtherAccent.MouseState = MaterialSkin.MouseState.HOVER;
             lblSettingsColorOtherAccent.Name = "lblSettingsColorOtherAccent";
             lblSettingsColorOtherAccent.Size = new Size(47, 17);
@@ -721,9 +724,9 @@
             // 
             picOtherPrimaryLight.BackColor = Color.Transparent;
             picOtherPrimaryLight.BorderStyle = BorderStyle.FixedSingle;
-            picOtherPrimaryLight.Location = new Point(99, 108);
+            picOtherPrimaryLight.Location = new Point(99, 122);
             picOtherPrimaryLight.Name = "picOtherPrimaryLight";
-            picOtherPrimaryLight.Size = new Size(70, 23);
+            picOtherPrimaryLight.Size = new Size(70, 26);
             picOtherPrimaryLight.TabIndex = 56;
             picOtherPrimaryLight.TabStop = false;
             picOtherPrimaryLight.Click += picOtherPrimaryLight_Click;
@@ -734,7 +737,7 @@
             ssssssssssssssssssssssssssssssssssssssssssssssssssssssssssssssssssssssssssssssssssssssssssssssssssssssssssssss.Depth = 0;
             ssssssssssssssssssssssssssssssssssssssssssssssssssssssssssssssssssssssssssssssssssssssssssssssssssssssssssssss.Font = new Font("Roboto", 12F, FontStyle.Regular, GraphicsUnit.Pixel);
             ssssssssssssssssssssssssssssssssssssssssssssssssssssssssssssssssssssssssssssssssssssssssssssssssssssssssssssss.FontType = MaterialSkin.MaterialSkinManager.fontType.Body2;
-            ssssssssssssssssssssssssssssssssssssssssssssssssssssssssssssssssssssssssssssssssssssssssssssssssssssssssssssss.Location = new Point(5, 108);
+            ssssssssssssssssssssssssssssssssssssssssssssssssssssssssssssssssssssssssssssssssssssssssssssssssssssssssssssss.Location = new Point(5, 122);
             ssssssssssssssssssssssssssssssssssssssssssssssssssssssssssssssssssssssssssssssssssssssssssssssssssssssssssssss.MouseState = MaterialSkin.MouseState.HOVER;
             ssssssssssssssssssssssssssssssssssssssssssssssssssssssssssssssssssssssssssssssssssssssssssssssssssssssssssssss.Name = "ssssssssssssssssssssssssssssssssssssssssssssssssssssssssssssssssssssssssssssssssssssssssssssssssssssssssssssss";
             ssssssssssssssssssssssssssssssssssssssssssssssssssssssssssssssssssssssssssssssssssssssssssssssssssssssssssssss.Size = new Size(88, 17);
@@ -745,9 +748,9 @@
             // 
             picOtherPrimaryDark.BackColor = Color.Transparent;
             picOtherPrimaryDark.BorderStyle = BorderStyle.FixedSingle;
-            picOtherPrimaryDark.Location = new Point(99, 78);
+            picOtherPrimaryDark.Location = new Point(99, 88);
             picOtherPrimaryDark.Name = "picOtherPrimaryDark";
-            picOtherPrimaryDark.Size = new Size(70, 23);
+            picOtherPrimaryDark.Size = new Size(70, 26);
             picOtherPrimaryDark.TabIndex = 54;
             picOtherPrimaryDark.TabStop = false;
             picOtherPrimaryDark.Click += picOtherPrimaryDark_Click;
@@ -758,7 +761,7 @@
             lblSettingsColorOtherPrimaryDark.Depth = 0;
             lblSettingsColorOtherPrimaryDark.Font = new Font("Roboto", 12F, FontStyle.Regular, GraphicsUnit.Pixel);
             lblSettingsColorOtherPrimaryDark.FontType = MaterialSkin.MaterialSkinManager.fontType.Body2;
-            lblSettingsColorOtherPrimaryDark.Location = new Point(8, 78);
+            lblSettingsColorOtherPrimaryDark.Location = new Point(8, 88);
             lblSettingsColorOtherPrimaryDark.MouseState = MaterialSkin.MouseState.HOVER;
             lblSettingsColorOtherPrimaryDark.Name = "lblSettingsColorOtherPrimaryDark";
             lblSettingsColorOtherPrimaryDark.Size = new Size(85, 17);
@@ -769,9 +772,9 @@
             // 
             picOtherPrimary.BackColor = Color.Transparent;
             picOtherPrimary.BorderStyle = BorderStyle.FixedSingle;
-            picOtherPrimary.Location = new Point(99, 48);
+            picOtherPrimary.Location = new Point(99, 54);
             picOtherPrimary.Name = "picOtherPrimary";
-            picOtherPrimary.Size = new Size(70, 23);
+            picOtherPrimary.Size = new Size(70, 26);
             picOtherPrimary.TabIndex = 52;
             picOtherPrimary.TabStop = false;
             picOtherPrimary.Click += picOtherPrimary_Click;
@@ -782,12 +785,13 @@
             lblSettingsColorOtherPrimary.Depth = 0;
             lblSettingsColorOtherPrimary.Font = new Font("Roboto", 12F, FontStyle.Regular, GraphicsUnit.Pixel);
             lblSettingsColorOtherPrimary.FontType = MaterialSkin.MaterialSkinManager.fontType.Body2;
-            lblSettingsColorOtherPrimary.Location = new Point(40, 48);
+            lblSettingsColorOtherPrimary.Location = new Point(40, 54);
             lblSettingsColorOtherPrimary.MouseState = MaterialSkin.MouseState.HOVER;
             lblSettingsColorOtherPrimary.Name = "lblSettingsColorOtherPrimary";
             lblSettingsColorOtherPrimary.Size = new Size(53, 17);
             lblSettingsColorOtherPrimary.TabIndex = 51;
             lblSettingsColorOtherPrimary.Text = "Primary:";
+            lblSettingsColorOtherPrimary.Click += lblSettingsColorOtherPrimary_Click;
             // 
             // lblSettingsColorsOther
             // 
@@ -796,13 +800,14 @@
             lblSettingsColorsOther.Font = new Font("Roboto Medium", 20F, FontStyle.Bold, GraphicsUnit.Pixel);
             lblSettingsColorsOther.FontType = MaterialSkin.MaterialSkinManager.fontType.H6;
             lblSettingsColorsOther.HighEmphasis = true;
-            lblSettingsColorsOther.Location = new Point(17, 12);
+            lblSettingsColorsOther.Location = new Point(17, 14);
             lblSettingsColorsOther.MouseState = MaterialSkin.MouseState.HOVER;
             lblSettingsColorsOther.Name = "lblSettingsColorsOther";
-            lblSettingsColorsOther.Size = new Size(51, 24);
+            lblSettingsColorsOther.Size = new Size(41, 24);
             lblSettingsColorsOther.TabIndex = 33;
-            lblSettingsColorsOther.Text = "Other";
+            lblSettingsColorsOther.Text = "其他";
             lblSettingsColorsOther.UseAccent = true;
+            lblSettingsColorsOther.Click += lblSettingsColorsOther_Click;
             // 
             // tabRadar
             // 
@@ -815,9 +820,9 @@
             tabRadar.Location = new Point(4, 39);
             tabRadar.Name = "tabRadar";
             tabRadar.Padding = new Padding(3);
-            tabRadar.Size = new Size(1645, 785);
+            tabRadar.Size = new Size(1645, 896);
             tabRadar.TabIndex = 0;
-            tabRadar.Text = "Radar";
+            tabRadar.Text = "雷达";
             // 
             // mcRadarStats
             // 
@@ -829,12 +834,12 @@
             mcRadarStats.Controls.Add(lblRadarFPS);
             mcRadarStats.Depth = 0;
             mcRadarStats.ForeColor = Color.FromArgb(222, 0, 0, 0);
-            mcRadarStats.Location = new Point(1538, 744);
-            mcRadarStats.Margin = new Padding(14);
+            mcRadarStats.Location = new Point(1538, 844);
+            mcRadarStats.Margin = new Padding(14, 16, 14, 16);
             mcRadarStats.MouseState = MaterialSkin.MouseState.HOVER;
             mcRadarStats.Name = "mcRadarStats";
-            mcRadarStats.Padding = new Padding(14);
-            mcRadarStats.Size = new Size(102, 36);
+            mcRadarStats.Padding = new Padding(14, 16, 14, 16);
+            mcRadarStats.Size = new Size(102, 41);
             mcRadarStats.TabIndex = 36;
             mcRadarStats.Visible = false;
             // 
@@ -844,7 +849,7 @@
             lblRadarMemSValue.Depth = 0;
             lblRadarMemSValue.Font = new Font("Roboto", 12F, FontStyle.Regular, GraphicsUnit.Pixel);
             lblRadarMemSValue.FontType = MaterialSkin.MaterialSkinManager.fontType.Caption;
-            lblRadarMemSValue.Location = new Point(72, 17);
+            lblRadarMemSValue.Location = new Point(72, 19);
             lblRadarMemSValue.MouseState = MaterialSkin.MouseState.HOVER;
             lblRadarMemSValue.Name = "lblRadarMemSValue";
             lblRadarMemSValue.Size = new Size(8, 14);
@@ -857,7 +862,7 @@
             lblRadarMemS.Depth = 0;
             lblRadarMemS.Font = new Font("Roboto", 12F, FontStyle.Regular, GraphicsUnit.Pixel);
             lblRadarMemS.FontType = MaterialSkin.MaterialSkinManager.fontType.Caption;
-            lblRadarMemS.Location = new Point(24, 17);
+            lblRadarMemS.Location = new Point(24, 19);
             lblRadarMemS.MouseState = MaterialSkin.MouseState.HOVER;
             lblRadarMemS.Name = "lblRadarMemS";
             lblRadarMemS.Size = new Size(42, 14);
@@ -897,12 +902,12 @@
             mcRadarSettings.Controls.Add(btnToggleMapFree);
             mcRadarSettings.Depth = 0;
             mcRadarSettings.ForeColor = Color.FromArgb(222, 0, 0, 0);
-            mcRadarSettings.Location = new Point(1516, 5);
-            mcRadarSettings.Margin = new Padding(14);
+            mcRadarSettings.Location = new Point(1516, 6);
+            mcRadarSettings.Margin = new Padding(14, 16, 14, 16);
             mcRadarSettings.MouseState = MaterialSkin.MouseState.HOVER;
             mcRadarSettings.Name = "mcRadarSettings";
-            mcRadarSettings.Padding = new Padding(14);
-            mcRadarSettings.Size = new Size(124, 46);
+            mcRadarSettings.Padding = new Padding(14, 16, 14, 16);
+            mcRadarSettings.Size = new Size(124, 52);
             mcRadarSettings.TabIndex = 48;
             // 
             // mcRadarMapSetup
@@ -915,12 +920,12 @@
             mcRadarMapSetup.Controls.Add(lblRadarMapSetup);
             mcRadarMapSetup.Depth = 0;
             mcRadarMapSetup.ForeColor = Color.FromArgb(222, 0, 0, 0);
-            mcRadarMapSetup.Location = new Point(5, 5);
-            mcRadarMapSetup.Margin = new Padding(14);
+            mcRadarMapSetup.Location = new Point(5, 6);
+            mcRadarMapSetup.Margin = new Padding(14, 16, 14, 16);
             mcRadarMapSetup.MouseState = MaterialSkin.MouseState.HOVER;
             mcRadarMapSetup.Name = "mcRadarMapSetup";
-            mcRadarMapSetup.Padding = new Padding(14);
-            mcRadarMapSetup.Size = new Size(444, 95);
+            mcRadarMapSetup.Padding = new Padding(14, 16, 14, 16);
+            mcRadarMapSetup.Size = new Size(326, 66);
             mcRadarMapSetup.TabIndex = 18;
             mcRadarMapSetup.Visible = false;
             // 
@@ -931,13 +936,14 @@
             lblRadarMapSetup.Font = new Font("Roboto", 16F, FontStyle.Regular, GraphicsUnit.Pixel);
             lblRadarMapSetup.FontType = MaterialSkin.MaterialSkinManager.fontType.Subtitle1;
             lblRadarMapSetup.HighEmphasis = true;
-            lblRadarMapSetup.Location = new Point(17, 14);
+            lblRadarMapSetup.Location = new Point(17, 0);
             lblRadarMapSetup.MouseState = MaterialSkin.MouseState.HOVER;
             lblRadarMapSetup.Name = "lblRadarMapSetup";
-            lblRadarMapSetup.Size = new Size(78, 19);
+            lblRadarMapSetup.Size = new Size(33, 19);
             lblRadarMapSetup.TabIndex = 31;
-            lblRadarMapSetup.Text = "Map Setup";
+            lblRadarMapSetup.Text = "坐标";
             lblRadarMapSetup.UseAccent = true;
+            lblRadarMapSetup.Click += lblRadarMapSetup_Click;
             // 
             // skMapCanvas
             // 
@@ -946,7 +952,7 @@
             skMapCanvas.Location = new Point(3, 3);
             skMapCanvas.Margin = new Padding(4, 3, 4, 3);
             skMapCanvas.Name = "skMapCanvas";
-            skMapCanvas.Size = new Size(1639, 779);
+            skMapCanvas.Size = new Size(1639, 890);
             skMapCanvas.TabIndex = 13;
             skMapCanvas.VSync = false;
             skMapCanvas.PaintSurface += skMapCanvas_PaintSurface;
@@ -961,25 +967,25 @@
             tabControlMain.Depth = 0;
             tabControlMain.Dock = DockStyle.Fill;
             tabControlMain.ImageList = iconList;
-            tabControlMain.Location = new Point(0, 24);
+            tabControlMain.Location = new Point(0, 27);
             tabControlMain.Margin = new Padding(0);
             tabControlMain.MouseState = MaterialSkin.MouseState.HOVER;
             tabControlMain.Multiline = true;
             tabControlMain.Name = "tabControlMain";
             tabControlMain.SelectedIndex = 0;
-            tabControlMain.Size = new Size(1653, 828);
+            tabControlMain.Size = new Size(1653, 939);
             tabControlMain.TabIndex = 10;
             tabControlMain.SelectedIndexChanged += TabControl_SelectedIndexChanged;
             // 
             // frmMain
             // 
-            AutoScaleDimensions = new SizeF(7F, 15F);
+            AutoScaleDimensions = new SizeF(7F, 17F);
             AutoScaleMode = AutoScaleMode.Font;
-            ClientSize = new Size(1653, 852);
+            ClientSize = new Size(1653, 966);
             Controls.Add(tabControlMain);
             Margin = new Padding(4, 3, 4, 3);
             Name = "frmMain";
-            Padding = new Padding(0, 24, 0, 0);
+            Padding = new Padding(0, 27, 0, 0);
             Text = "Squad";
             Shown += frmMain_Shown;
             tabSettings.ResumeLayout(false);
